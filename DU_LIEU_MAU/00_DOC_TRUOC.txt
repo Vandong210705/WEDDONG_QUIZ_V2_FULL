@@ -1,0 +1,21 @@
+DỮ LIỆU MẪU HƯ CẤU, KHÔNG PHẢI DANH SÁCH HỌC SINH THẬT.
+
+1) /admin -> đăng nhập (demo dùng mã cũ 123) -> TẠO MỚI:
+   Tên lớp: RTOS - LOP TEST
+   PIN: RTOS26
+2) Bấm "Sổ Đầu Bài" -> chọn 01_DANH_SACH_LOP_MAU.txt -> LƯU TÀI LIỆU.
+   LƯU Ý: thao tác này THAY THẾ DANH SÁCH LỚP GỐC HIỆN TẠI trên database.
+3) Bấm "Nạp câu hỏi" -> chọn 02_DE_MAU_RTOS_10_CAU.txt -> LƯU TÀI LIỆU.
+   LƯU Ý: thao tác này THAY THẾ ĐỀ HIỆN TẠI của lớp đang chọn và xóa kết quả cũ của lớp đó.
+4) Không bắt buộc "Cáp Thiết Bị" vì hệ thống tra trực tiếp STT trong class_students.
+   Nếu muốn test mapping, nạp 03_GHEP_THIET_BI_TUY_CHON.txt.
+5) Chạy Backend + Frontend mới. Nạp ESP32 sketch mới.
+6) ESP32 nhập 1 -> ENTER; /screen hiện Nguyễn Minh Anh, 14/08/2005.
+7) Admin chọn Câu 1 -> PHÁT; LED ESP32 chớp nhanh 200ms.
+8) ESP32 nhấn 1(A) -> ENTER, rồi 2(B) -> ENTER.
+   Trước CHỐT: chưa tính điểm, backend chỉ lưu B (đáp án cuối).
+9) Admin nhấn CHỐT: Câu 1 có đáp án đúng B, được 1 điểm.
+   Không chấp nhận đáp án mới sau CHỐT. Chỉ tiếp tục với Câu 2 sau PHÁT.
+10) Sau khi Admin PHÁT câu 2, LED ESP32 lại chớp 200ms, khi gửi thành công sáng liên tục.
+
+Dữ liệu mẫu có STT 1-15. Tên và ngày sinh đều hư cấu.

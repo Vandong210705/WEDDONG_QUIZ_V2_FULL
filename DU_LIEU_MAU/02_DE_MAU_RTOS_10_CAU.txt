@@ -1,0 +1,69 @@
+Câu hỏi: Trong hệ điều hành thời gian thực (RTOS), đặc điểm quan trọng nhất là gì?
+A: Luôn thực thi nhanh hơn mọi hệ điều hành khác
+B: Đáp ứng thời hạn xử lý đã xác định
+C: Sử dụng nhiều RAM hơn
+D: Không cần bộ lập lịch
+Đáp án: B
+
+Câu hỏi: Trong FreeRTOS, hàm vTaskDelay() thường dùng để làm gì?
+A: Tạm dừng một tác vụ trong số tick xác định
+B: Xóa vĩnh viễn tác vụ
+C: Tạo semaphore mới
+D: Xóa toàn bộ hàng đợi
+Đáp án: A
+
+Câu hỏi: Mutex trong FreeRTOS chủ yếu được dùng để làm gì?
+A: Đo nhiệt độ
+B: Chuyển chuỗi UART
+C: Bảo vệ tài nguyên chia sẻ khỏi truy cập đồng thời
+D: Định thời ngắt phần cứng
+Đáp án: C
+
+Câu hỏi: Queue trong FreeRTOS cho phép các tác vụ thực hiện việc gì?
+A: Giao tiếp và truyền dữ liệu giữa các tác vụ
+B: Thay đổi tần số xung nhịp CPU
+C: Tăng dung lượng Flash
+D: Tắt Watchdog của hệ thống
+Đáp án: A
+
+Câu hỏi: Với xEventGroupWaitBits(), điều kiện waitForAllBits bằng pdTRUE có nghĩa là gì?
+A: Chỉ cần một bit trong nhóm được đặt
+B: Bỏ qua tất cả các bit sự kiện
+C: Đợi tất cả các bit chỉ định được đặt
+D: Xóa toàn bộ Event Group ngay lập tức
+Đáp án: C
+
+Câu hỏi: Khi muốn đánh thức tác vụ từ một ngắt, hàm nào phù hợp hơn?
+A: vTaskDelay()
+B: xSemaphoreGiveFromISR()
+C: xQueueReset()
+D: vTaskDelete()
+Đáp án: B
+
+Câu hỏi: Nếu hai tác vụ cùng sẵn sàng và hệ thống dùng lập lịch ưu tiên có cưỡng đoạt, tác vụ nào thường được chạy?
+A: Tác vụ có tên dài hơn
+B: Tác vụ được tạo trước, bất kể ưu tiên
+C: Tác vụ có stack lớn hơn
+D: Tác vụ có độ ưu tiên cao hơn
+Đáp án: D
+
+Câu hỏi: Giá trị pdPASS do xQueueSend() trả về cho biết điều gì?
+A: Hàng đợi đã bị xóa
+B: Dữ liệu đã gửi vào Queue thành công
+C: CPU đã vào chế độ sleep
+D: Mutex đã bị khóa
+Đáp án: B
+
+Câu hỏi: Hàm vTaskSuspend() được sử dụng để làm gì?
+A: Đưa tác vụ vào trạng thái suspended
+B: Khởi động lại ESP32
+C: Đọc dữ liệu ADC
+D: Tăng kích thước Queue
+Đáp án: A
+
+Câu hỏi: Để tránh Queue bị tràn khi gửi dữ liệu, chương trình nên xử lý thế nào?
+A: Bỏ qua giá trị trả về của xQueueSend()
+B: Gửi liên tục không cần kiểm tra
+C: Kiểm tra kết quả gửi và xử lý trường hợp Queue đầy
+D: Tắt tất cả các ngắt trong chương trình
+Đáp án: C

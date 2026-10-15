@@ -1,0 +1,17 @@
+BAN SUA GIAO DIEN - 12/10/2026
+- Bang hoc sinh: them STT, nguon ESP32/Web/Chua tham gia tu checkin.
+- Nut Ket qua kiem tra: mo bang diem, xuat CSV (Excel mo duoc), khong yeu cau upload file.
+- Diem lay tu quiz_responses is_locked=1 (chi sau CHOT).
+- KHONG can nap lai ESP32 neu dang dung ban V2.
+
+CHAY BACKEND:
+cd My_projectDONG/Backend
+npm install
+npm start
+
+CHAY FRONTEND (terminal khac):
+cd My_projectDONG/frontend/frontend
+npm install
+npm run dev
+
+GHI CHU: Ban sua chua duoc kiem thu end-to-end voi MySQL/MQTT thuc te trong moi truong nay.
