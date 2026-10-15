@@ -70,6 +70,31 @@ sequenceDiagram
 
 ## 🖼️ Thiết kế phần cứng
 
+### Mẫu vỏ hộp in 3D
+
+> Đây là **mẫu vỏ hộp thử nghiệm**, chưa lắp bo mạch, nút nhấn hoặc linh kiện điện tử bên trong.
+
+<div align="center">
+  <img src="docs/images/prototype/enclosure-showcase.gif" alt="Ảnh động trình chiếu mẫu vỏ hộp in 3D" width="620">
+  <br>
+  <sub>Ảnh động tự động chuyển qua các góc nhìn của mẫu vỏ hộp.</sub>
+</div>
+
+<br>
+
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="docs/images/prototype/enclosure-keypad-cover.jpg" alt="Mặt trước vỏ hộp"><br><b>Mặt trước và vị trí bàn phím</b></td>
+    <td align="center" width="33%"><img src="docs/images/prototype/enclosure-parts.jpg" alt="Các chi tiết vỏ hộp"><br><b>Các chi tiết sau khi in</b></td>
+    <td align="center" width="33%"><img src="docs/images/prototype/enclosure-front.jpg" alt="Mặt ngoài vỏ hộp"><br><b>Mặt ngoài vỏ hộp</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/images/prototype/enclosure-side.jpg" alt="Vỏ hộp nhìn từ bên"><br><b>Góc nhìn bên</b></td>
+    <td align="center"><img src="docs/images/prototype/enclosure-interior.jpg" alt="Khoang bên trong vỏ"><br><b>Khoang bên trong</b></td>
+    <td align="center"><img src="docs/images/prototype/enclosure-open.jpg" alt="Mặt trong nắp phím"><br><b>Mặt trong nắp phím</b></td>
+  </tr>
+</table>
+
 ### Mạch PCB bàn phím ESP32
 
 <table>
