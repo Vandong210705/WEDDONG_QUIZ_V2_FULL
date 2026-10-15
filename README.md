@@ -453,3 +453,19 @@ Dự án sử dụng giấy phép ISC theo khai báo trong `package.json`. Khi c
 **Made with ❤️ for Smart Classroom Innovation**
 
 </div>
+
+---
+
+## 🤝 COLLABORATOR
+
+<div align="center">
+
+<a href="https://github.com/dat09062005-lh">
+  <img src="https://github.com/dat09062005-lh.png" width="90" alt="GitHub avatar of dat09062005-lh">
+</a>
+
+**[@dat09062005-lh](https://github.com/dat09062005-lh)**
+
+[![GitHub Profile](https://img.shields.io/badge/GitHub-dat09062005--lh-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dat09062005-lh)
+
+</div>
